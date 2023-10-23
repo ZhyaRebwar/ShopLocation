@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:id="@+id/item"
+        android:icon="@drawable/more_icon">
+
+        <menu>
+            <item
+                android:id="@+id/add"
+                android:title="add shop"
+                android:icon="@drawable/add_shops"
+                />
+        </menu>
+    </item>
+</menu>
